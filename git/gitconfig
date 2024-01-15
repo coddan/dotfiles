@@ -1,0 +1,13 @@
+[user]
+  email = christopher@grisell.se
+  user  = coddan
+  name  = Christopher Holmberg
+
+
+[core]
+  excludesfile = ~/.gitignore_global
+  editor       = nvim
+  autocrlf     = input
+  eol          = lf
+  preloadindex = true
+  fscache      = true
