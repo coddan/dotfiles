@@ -37,15 +37,6 @@ alias df='df -h'
 # free
 alias free="free -mt"
 
-# Aliases for software managment
-alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
-
-
-# Aliases for software managment
-alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
-
 
 # -------------------------------------------------------------------------- }}}
 # {{{ Archvie extractor
@@ -76,3 +67,6 @@ ex() {
 		echo "'$1' is not a valid file"
 	fi
 }
+
+alias vim='nvim'
+alias vi='nvim'
